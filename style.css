@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "helvetica";
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.title_header{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+header{
+ font-size: 37px;
+ color: #954535;
+}
+
+.timer_section{
+  display: none;
+}
+
+
+.minute_input{
+  display: flex;
+  justify-content: center;
+}
+#minute_label{
+  font-size: 27px;
+}
+ #minutes{
+  font-size: 27px;
+  height: 37px;
+  border-radius: 47px;
+}
+#minute_submit{
+  font-size: 17px;
+  height: 41px;
+  padding: 4px;	
+  cursor: pointer;
+  border-radius: 47px;
+}
+
+.error_text{
+  display: flex;
+  justify-content: center;
+  padding-top: 3vh;
+}
+.error_text > p{
+  color: red;
+  font-size: 17px;
+}
+
+.select_timer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock_timer{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.clock_timer > div{
+  width: 18vh;
+  height: 27vh;
+  border: 2px solid black;
+  border-radius: 47px;  
+  text-align: center;
+  line-height: 27vh;
+  font-size: 20vh;
+}
+
+.control_btns{
+ display: flex;
+ justify-content: center;
+ padding-top: 47px;
+ gap: 30px;
+}
+
+.control_btns > button{
+  padding: 17px;
+  width: 27vh;
+  border-radius: 27px;
+  font-size: 21px;
+  cursor: pointer;
+}
+

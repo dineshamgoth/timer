@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Countdown timer</title>
+  </head>
+  <body>
+     <div class = "title_header">
+       <header>This is a countdown timer</header>
+     </div>
+    
+     <div class="minute_input">
+       <label for="minutes" id="minute_label">Minutes:</label>
+       <input type="number" id="minutes" name="minutes" min="1" max="60" required>
+       <button type="button" id="minute_submit">Set timer for: </button>
+     </div>
+     <div class = "error_text" style = "display: none">
+         <p id = "error_msg">The value should be equal to or lower than 60</p>
+     </div>
+  
+     <div class = "timer_section">
+        <div class="clock_timer">
+        <div class="hour_1">0</div>
+        <div class="hour_2">0</div>
+        <div class="minute_1">0</div>
+        <div class="minute_2">0</div>
+        <div class="second_1">0</div>
+        <div class="second_2">0</div>
+        </div>
+       <div class="control_btns">
+         <button id = "start">Start</button>
+         <button id = "pause">Pause</button>
+         <button id = "restart">Restart</button>
+         <button id = "reset">Reset</button>
+       </div>
+     </div>
+  </body>
+  <script src = "script.js" defer></script>
+</html>
